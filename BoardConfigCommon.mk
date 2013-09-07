@@ -106,3 +106,8 @@ TW_MAX_BRIGHTNESS := 255
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 HAVE_SELINUX := true
 
+#MultiROM config. MultiROM also uses parts of TWRP config
+MR_INPUT_TYPE := type_b
+MR_INIT_DEVICES := device/asus/grouper/mr_init_devices.c
+MR_DPI := hdpi
+MR_FSTAB := device/asus/grouper/twrp.fstab
