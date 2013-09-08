@@ -10,7 +10,7 @@ const char *mr_init_devices[] =
     "/sys/devices/tegradc.0/graphics/fb0",
 
     "/sys/block/mmcblk0",
-    "/sys/devices/platform/sdhci-tegra.3/mmc_host",
+    "/sys/devices/platform/sdhci-tegra.3",
     "/sys/devices/platform/sdhci-tegra.3/mmc_host/mmc0",
     "/sys/devices/platform/sdhci-tegra.3/mmc_host/mmc0/mmc0:0001",
     "/sys/devices/platform/sdhci-tegra.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0",
