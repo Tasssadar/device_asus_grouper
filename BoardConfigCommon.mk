@@ -111,3 +111,4 @@ MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/asus/grouper/mr_init_devices.c
 MR_DPI := hdpi
 MR_FSTAB := device/asus/grouper/twrp.fstab
+MR_KEXEC_MEM_MIN := 0x85000000
