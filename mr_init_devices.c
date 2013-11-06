@@ -43,5 +43,8 @@ const char *mr_init_devices[] =
     // USB drive is in here
     "/sys/devices/platform/tegra-ehci.0*",
 
+    // exfat requires fuse device
+    "/sys/devices/virtual/misc/fuse",
+
     NULL
 };
