@@ -26,11 +26,8 @@ const char *mr_init_devices[] =
 
     "/sys/devices/platform/gpio-keys.0/input/input2",
     "/sys/devices/platform/gpio-keys.0/input/input2/event2",
+    "/sys/devices/virtual/input*",
     "/sys/devices/virtual/misc/uinput",
-    "/sys/devices/virtual/input/input0",
-    "/sys/devices/virtual/input/input0/event0",
-    "/sys/devices/virtual/input/input1",
-    "/sys/devices/virtual/input/input1/event1",
 
     // for adb
     "/sys/devices/virtual/tty/ptmx",
@@ -42,9 +39,6 @@ const char *mr_init_devices[] =
 
     // USB drive is in here
     "/sys/devices/platform/tegra-ehci.0*",
-
-    // exfat requires fuse device
-    "/sys/devices/virtual/misc/fuse",
 
     NULL
 };
