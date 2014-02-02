@@ -24,8 +24,7 @@ const char *mr_init_devices[] =
     "/sys/module/mmc_core",
     "/sys/module/mmcblk",
 
-    "/sys/devices/platform/gpio-keys.0/input/input2",
-    "/sys/devices/platform/gpio-keys.0/input/input2/event2",
+    "/sys/devices/platform/gpio-keys.0/input*",
     "/sys/devices/virtual/input*",
     "/sys/devices/virtual/misc/uinput",
 
