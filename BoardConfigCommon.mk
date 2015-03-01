@@ -124,6 +124,7 @@ TW_BRIGHTNESS_PATH := /sys/devices/platform/pwm-backlight/backlight/pwm-backligh
 TW_MAX_BRIGHTNESS := 255
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 HAVE_SELINUX := true
+BOARD_CUSTOM_BOOTIMG_MK := device/asus/grouper/custombootimg.mk
 
 #MultiROM config. MultiROM also uses parts of TWRP config
 MR_INPUT_TYPE := type_b
