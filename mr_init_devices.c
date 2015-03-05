@@ -39,5 +39,9 @@ const char *mr_init_devices[] =
     // USB drive is in here
     "/sys/devices/platform/tegra-ehci.0*",
 
+    // Encryption
+    "/sys/devices/platform/sdhci-tegra.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p8", //MDA
+    "/sys/devices/virtual/misc/device-mapper",
+
     NULL
 };
