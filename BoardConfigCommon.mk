@@ -136,3 +136,5 @@ MR_KEXEC_MEM_MIN := 0x85000000
 MR_INFOS := device/asus/grouper/mrom_infos
 MR_ENCRYPTION := true
 MR_DEVICE_VARIANTS := tilapia
+MR_DEVICE_HOOKS := device/asus/grouper/mr_hooks.c
+MR_DEVICE_HOOKS_VER := 3
