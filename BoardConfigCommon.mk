@@ -138,3 +138,4 @@ MR_ENCRYPTION := true
 MR_DEVICE_VARIANTS := tilapia
 MR_DEVICE_HOOKS := device/asus/grouper/mr_hooks.c
 MR_DEVICE_HOOKS_VER := 3
+TARGET_RECOVERY_IS_MULTIROM := true
